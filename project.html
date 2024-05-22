@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos</title>
+    <link rel="stylesheet" href="./styles/styleProject.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="styles/menu.css">
+
+    <style>
+        body {
+            box-sizing: border-box;
+            background-image: url('assets/Frame 14490.png');
+            background-size: cover;
+        }
+        </style>
+</head>
+<body class="container">
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__navegar" href="index.html">
+                <img src="assets/icons8-home-page-24.png">
+                H0ME</a>
+            <a class="cabecalho__menu__navegar" href="skills.html">
+                <img src="assets/icons8-habilidades-24.png">
+                HABILIDADES</a>
+            <a class="cabecalho__menu__navegar" href="project.html">
+                <img src="assets/icons8-favorite-24.png">
+                PROJETOS</a>
+        </nav>
+        <nav class="wrap-menu">
+            <a href="#menu" class="btnMenu btnMenu_open"> Menu </a>
+
+            <ul id="menu" class="menu">
+                <li class="btnMenu btnMenu_close">Sair</li>
+                <li class="menu-item">
+                    <a class="menu-item-action" href="index.html">
+                        <img src="assets/icons8-home-page-24.png">
+                        H0ME</a>
+                </li >
+                <li class="menu-item">
+                    <a class="menu-item-action" href="skills.html">
+                        <img src="assets/icons8-habilidades-24.png">
+                        HABILIDADES</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-item-action" href="project.html">
+                        <img src="assets/icons8-favorite-24.png">
+                        PROJETOS</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="apresentacaoP">
+        <section class="apresentacaoP__conteudoP">
+            <h1 class="apresentacao__conteudo__titulo">Meus <strong class="titulo-destaque">Projetos</strong> </h1>
+            <p class="apresentacao__conteudo_paragrafo"> Aqui estão alguns dos meus projetos que desenvolvir estudando pela Alura. Vivamus urna nisi, lobortis ut euismod in, sollicitudin ac ipsum.</p>
+            
+            <div class="card">
+                <div class="apresentacaoP__conteudoP__card-1">
+                    <img src="assets/jogo vakinha.png" alt="jogo da vakinha" width: 370px height:240px>
+                </div>
+                <div class="apresentacaoP__conteudoP__card-2">
+                    <img src="assets/numero secreto.png" alt="jogo do numero secreto" width: 370px height:240px>
+                </div>
+                <div class="apresentacaoP__conteudoP__card-3">
+                    <img src="assets/jogo raquete.png" alt="jogo da raquete" width: 370px height:240px>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="rodape__container">
+            <div class="rodape__container__img">
+                <img src="assets/Logo_Alura_Include.svg" alt="Logo da Alura">
+            </div>
+        
+            <div class="rodape__container__texto" > 
+                <p>Desenvolvido por Euderlan</p>
+            </div>
+        </div>
+    </footer>
+    <script src="btnMenu.js" > </script>
+</body>
+</html>

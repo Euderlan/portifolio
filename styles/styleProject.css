@@ -1,0 +1,137 @@
+:root{
+    --cor-primaria: #021526;
+    --cor-secundaria: #F6F6F6;
+    --cor-tercearia: #00FF7F;
+    --cor-hover: #052e47;
+
+    --fonte-primaria: "Krona One", sans-serif;
+    --font-secundaria: "montserrat", sans-serif;
+    --fonte-tercearia: "Do Hyeon", sans-serif;
+    --fonte-quartenaria: "Lato", sans-serif;
+}
+
+.apresentacaoP{
+    padding:0% 8%;
+}
+
+.apresentacaoP__conteudoP{
+    justify-content:center;
+    align-items: center;
+    padding: 5% 8% 5% 10%;   
+}
+
+.apresentacao__conteudo__titulo{
+    letter-spacing: 3.24px;
+    font-size: 2.5rem;
+    padding: 3% 0%;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao__conteudo_paragrafo {
+    padding: 0% 20% 0% 0%;
+    font-size: 1.5rem;
+    font-family: var(--font-secundaria);
+    text-align: justify;
+}
+
+
+.card {
+    
+    padding: 5% 0%; 
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+  }
+  
+.apresentacaoP__conteudoP__card-1,
+.apresentacaoP__conteudoP__card-2,
+.apresentacaoP__conteudoP__card-3{
+    width: 370px;
+    height:240px;
+    position:relative;
+    border:2px solid var(--cor-tercearia);
+    border-radius: 16px;
+    img {
+        width: 370px;
+        height: 240px;
+        border-radius: 16px;
+        position:relative;
+        bottom: 10px; 
+        right: 10px;
+                
+      }
+  }
+
+.apresentacaoP__conteudoP__card-2 { 
+    right: auto;
+}
+.apresentacaoP__conteudoP__card-3 {
+    left: auto;   
+}
+  
+
+
+
+@media (max-width: 1200px){
+    /* .cabecalho {
+        
+        flex-direction: column;
+        align-items: flex-start;
+        box-sizing: border-box;
+        padding: 2% 2%;
+    }
+    .cabecalho__menu {
+        justify-content: center;
+        display: flex;
+        gap: 20px; 
+    }
+    .cabecalho__menu__navegar{
+        font-size: 1rem;
+    } */
+
+    .apresentacaoP{
+       
+        flex-direction:column;
+    }
+    .apresentacaoP__conteudoP{
+        padding: 15% 0% 0% 0%;
+        width: auto;
+        flex-direction: column;
+    }
+    .apresentacao__conteudo__titulo{
+        width: auto;
+        flex-direction: column;
+    }
+    .apresentacao__conteudo_paragrafo{
+        padding: 5%;
+        font-size: 1.25rem;
+    }
+  
+
+    .card {
+        width: auto;
+        height: auto; 
+        padding: 10% 0%; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        gap: 40px; 
+    }
+
+    .apresentacaoP__conteudoP__card-1,
+    .apresentacaoP__conteudoP__card-2,
+    .apresentacaoP__conteudoP__card-3 {
+        width: 270px;
+        height: 175px; 
+
+        img {
+            width: 270px;
+            height: 175px;
+                    
+          }
+        
+    }
+    
+}
